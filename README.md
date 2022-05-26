@@ -8,5 +8,4 @@ Once the error imputed to each neuron has been calculated, we can calculate the 
 
 It should be noted that in this explanation we will not deal with the mathematical calculations of the partial derivatives involved in the algorithm. You can look at the code and get it from there. But it is better to stay with the intuition and see in a visual way how this adjustment of the parameters is done and how the error (the cost function is decreasing).
 
-
-La topologia usada es bastante simple. son 3 capas con 4, 8 y 1 neurona de salida respectivamente. la entrada de la red serán dos conexiones, las coordenadas de cada punto que conforman el circulo. Y la salida sera un numero por cada par de coordenadas, 0 o 1.
+The topology used is quite simple. 3 layers with 4, 8 and 1 output neuron respectively. The input of the network will be two connections, the coordinates of each point that make up the circle. And the output will be a number for each pair of coordinates, 0 or 1.
